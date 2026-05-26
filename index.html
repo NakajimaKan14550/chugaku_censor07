@@ -56,7 +56,7 @@
         /* Hero Section */
         .hero {
             background: linear-gradient(135deg, #0f2b48 0%, var(--color-main) 100%);
-            color: var(--white);
+            color: var(--color-white);
             padding: 80px 20px;
             text-align: center;
         }
@@ -402,7 +402,7 @@
                         <div class="avatar">👨‍💻</div>
                         <div class="bubble">
                             <span class="speaker-name">サトウ（開発プランナー）</span>
-                            そう。たとえば<strong>「メタレンズ」</strong>は、ナノ構造で光を曲げる、まるでペラペラの紙のように真っ平らで超薄型のレンズ。<strong>「液体レンズ」</strong>は、電気を流して液体の形を変え、瞬時にピントを合わせる超高速レンズ。そして<strong>「LYNRED」</strong>はモノが放つ熱（赤外線）を検知して画像にするサーモグラフィセンサーの世界最高峰メーカーなんだよ。
+                            そう。たとえば<strong>「メタレンズ」</strong>は、ナノ構造で光を曲げる、まるでペラペラの紙のように真っ平らで超薄型のレンズ。<strong>「液体レンズ」</strong>は、電気を流して液体の形を変え、瞬時にピントを合わせる超高速レンズ。そして<strong>「LYNRED」</strong>はモノが放つ熱（赤外線）を検知して画像にするサーモグラフィセンサーの世界最高峰メーカーんだよ。
                         </div>
                     </div>
                 </div>
@@ -414,7 +414,7 @@
                         <p style="margin-top: 10px;"><strong>・LYNRED（赤外線サーモグラフィ）：</strong> 長波長赤外線（LWIR）をマイクロボロメータで検知する熱画像センサー。レーザーの反射時間を測るToF型（距離計）とは異なり、空間の熱分布を可視化する技術です。</p>
                     </div>
                     <div class="img-container">
-                        <img src="censor1.png" alt="メタレンズ・液体レンズ・従来レンズの構造的相関と赤外線検出メカニズムの対比" class="zoomable-image">
+                        <img src="tof.png" alt="メタレンズ・液体レンズ・従来レンズの構造的相関と赤外線検出メカニズムの対比" class="zoomable-image">
                     </div>
                 </div>
             </div>
@@ -449,7 +449,7 @@
                         <div class="avatar">👨‍💻</div>
                         <div class="bubble">
                             <span class="speaker-name">サトウ（開発プランナー）</span>
-                            1つ目は<strong>「コストの破壊」</strong>。従来の熱カメラはガラスレンズが使えなくて、超高価なレアメタル「ゲルマニウム」を削って作っていたからバカ高かった。メタレンズ（シリコン製など）にすれば、材料費をタダ同然にできる。2つ目は<strong>「単一波長（1つの色）」</strong>だということ。メタレンズはフルカラーの処理は苦手だけど、サーモグラフィは『熱（遠赤外線）』という1つの色（波長帯）しか見ないから、メタレンズの得意分野ど真ん中なんだ。3つ目は<strong>「極限の小型化」</strong>。これでスマホや車のフロントガラスに埋め込める薄さになる。
+                            1つ目は<strong>「コストの破壊」</strong>。従来の熱カメラはガラスレンズが使えなくて、超高価なレアメタル「ゲルマニウム」を削って作っていたからバカ高かった。メタレンズ（シリコン製など）にすれば、材料費をタダ同然にできる。2つ目は<strong>「単一波長（1つの色）」</strong>だということ。メタレンズはフルカラーの処理は苦手だけど、サーモグラフィは『熱（遠赤外線）』という1つの色（波長帯）しか見ないから、メタレンズの得意分野ど真ん中んだよ。3つ目は<strong>「極限の小型化」</strong>。これでスマホや車のフロントガラスに埋め込める薄さになる。
                         </div>
                     </div>
                 </div>
@@ -460,14 +460,14 @@
                         <p style="margin-top: 10px;">メタレンズは半導体シリコンプロセス等を流用可能であり、かつ単色（狭帯域）の放射熱を捉えるサーモグラフィ用途において、最大の弱点である色収差（波長分散）の問題が発生しないため、物理特性・製造コストの双方において理想的なマッチングを示します。</p>
                     </div>
                     <div class="img-container">
-                        <img src="censor2.png" alt="ゲルマニウムレンズ削り出しと半導体メタレンズ製法のコスト・薄型化比較モデル" class="zoomable-image">
+                        <img src="tof2.png" alt="ゲルマニウムレンズ削り出しと半導体メタレンズ製法のコスト・薄型化比較モデル" class="zoomable-image">
                     </div>
                 </div>
             </div>
         </section>
 
-        <section id="qa-4">
-            <h2 class="section-title">第3章：大進化！「ToF×メタレンズ」がセンサーを米粒サイズにする</h2>
+        <section id="qa-3">
+            <h2 class="section-title">第2章：大進化！「ToF×メタレンズ」がセンサーを米粒サイズにする</h2>
             <div class="grid-2col">
                 <div class="qa-container">
                     <div class="dialogue-row student">
@@ -521,15 +521,15 @@
                         <p style="margin-top: 10px;">これにより、従来の焦電型（人感）センサーと同等以下のフォームファクタでありながら、高精度な3次元測距・ジェスチャー認識が可能な、超小型アクティブ・デプスセンシング・モジュールが実現しています。</p>
                     </div>
                     <div class="img-container">
-                        <img src="censor3.png" alt="メタレンズ（平面光学素子）の構造とToFセンサーモジュールの超小型化メカニズム" class="zoomable-image">
+                        <img src="tof3.png" alt="メタレンズ（平面光学素子）の構造とToFセンサーモジュールの超小型化メカニズム" class="zoomable-image">
                     </div>
                 </div>
             </div>
         </section>
         
 
-        <section id="qa-3">
-            <h2 class="section-title">第2章：プレイヤーの結びつきと、御社だけの「最強のポジション」</h2>
+        <section id="qa-4">
+            <h2 class="section-title">第3章：プレイヤーの結びつきと、御社だけの「最強のポジション」</h2>
             <div class="grid-2col">
                 <div class="qa-container">
                     <div class="dialogue-row student">
@@ -573,14 +573,14 @@
                         <p style="margin-top: 10px;">・<strong>御社（CHRONIX）：</strong> 両先端プレイヤーとの既存チャネルを跨ぎ、個別素子の販売から「統合モジュールソリューション」へと上流への価値転換を主導できるハブポジションに位置します。</p>
                     </div>
                     <div class="img-container">
-                        <img src="censor3.png" alt="LYNRED・STマイクロ・御社の3社が形成する補完的ビジネスエコシステム構造図" class="zoomable-image">
+                        <img src="tof4.png" alt="LYNRED・STマイクロ・御社の3社が形成する補完的ビジネスエコシステム構造図" class="zoomable-image">
                     </div>
                 </div>
             </div>
         </section>
 
-        <section id="qa-4">
-            <h2 class="section-title">第3章：巨額の共同開発を仕掛ける！御社発の「次世代ビジネス提案」</h2>
+        <section id="qa-5">
+            <h2 class="section-title">第4章：巨額の共同開発を仕掛ける！御社発の「次世代ビジネス提案」</h2>
             <div class="grid-2col">
                 <div class="qa-container">
                     <div class="dialogue-row student">
@@ -623,9 +623,6 @@
                         <p style="margin-top: 10px;">従来の「センサーを買ってきて、光学メーカーのゲルマニウムレンズをアセンブリする」垂直統合・高コスト型モデルを打破します。</p>
                         <p style="margin-top: 10px;">STマイクロのシリコンウェハベースのメタレンズ製造技術と、LYNREDのボロメータウェハをパッケージレベルで統合（Wafer-Level Packaging: WLP）するスキームを御社主導で提案することにより、車載ナイトビジョンやスマートフォンへの民生展開を可能にする「極小・低価格赤外線イメージングモジュール」の市場独占を狙います。</p>
                     </div>
-                    <div class="img-container">
-                        <img src="censor4.png" alt="ウェハレベルパッケージングによるレンズ一体型極小サーモセンサーモジュールの製造プロセス案" class="zoomable-image">
-                    </div>
                 </div>
             </div>
         </section>
@@ -646,6 +643,20 @@
                         <div class="bubble">
                             <span class="speaker-name">サトウ（開発プランナー）</span>
                             その通り。この大きなビジネスへの第一歩は、驚くほど身近なところから始まるんだ。まずはLYNREDの担当者に雑談ベースで聞いてみるのさ。『サーモセンサーのコストを下げるために、メタレンズのロードマップはある？』『もし製造パートナー（ST社）を含めて、一体型モジュールの共同開発に興味がある？』ってね。ここから時代が変わるよ。
+                        </div>
+                    </div>
+                    <div class="dialogue-row student">
+                        <div class="avatar">👧</div>
+                        <div class="bubble">
+                            <span class="speaker-name">アカリ（中学生）</span>
+                            うん！でもサトウさん、それって『LYNREDがSTマイクロを、あるいはSTマイクロがLYNREDを直接買収しちゃったら、真ん中にいる私たちのマージン、一瞬で消えちゃいません？』……まずは両社のトップが直接握らないように、技術の『秘密保持契約（NDA）』の主導権を御社がガチガチに握るところからスタートですね！
+                        </div>
+                    </div>
+                    <div class="dialogue-row engineer">
+                        <div class="avatar">👨‍💻</div>
+                        <div class="bubble">
+                            <span class="speaker-name">サトウ（開発プランナー）</span>
+                            …………っ！（中学生のくせに中抜き排除のリスクと知財戦略の本質を突いてくるとは……絶句）
                         </div>
                     </div>
                 </div>
